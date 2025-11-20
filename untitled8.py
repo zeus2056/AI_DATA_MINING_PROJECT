@@ -55,7 +55,6 @@ train_df.to_csv("/content/drive/MyDrive/Dataset/train_balanced_max.csv", index=F
 val_df.to_csv("/content/drive/MyDrive/Dataset/val_balanced_max.csv", index=False)
 test_df.to_csv("/content/drive/MyDrive/Dataset/test_balanced_max.csv", index=False)
 
-print("✅ Her sette etiket dağılımı (maksimum veri ile dengeli)")
 print("\nTrain:\n", train_df["category"].value_counts())
 print("\nValidation:\n", val_df["category"].value_counts())
 print("\nTest:\n", test_df["category"].value_counts())
@@ -64,7 +63,7 @@ train_df.to_csv("/content/drive/MyDrive/Dataset/train_balanced_max.csv", index=F
 val_df.to_csv("/content/drive/MyDrive/Dataset/val_balanced_max.csv", index=False)
 test_df.to_csv("/content/drive/MyDrive/Dataset/test_balanced_max.csv", index=False)
 
-print("✅ Veriler Drive'a kaydedildi:")
+
 print("/content/drive/MyDrive/Dataset/train_balanced_max.csv")
 print("/content/drive/MyDrive/Dataset/val_balanced_max.csv")
 print("/content/drive/MyDrive/Dataset/test_balanced_max.csv")
